@@ -1,8 +1,15 @@
 # SE-Custom-Roles
 Custom Roles script that can be used to create new roles
 
+Put ScriptedEvents.dll into Exiled/Plugins
+Restart the server
+Put CustomRoles.txt into new folder named scripts
 
 ## Explanation of code for dummies:
+
+* `!-- AUTORUN` // It is flag that you do not change because it basically tells the script to automatically run
+
+* `WAITUNTIL {ROUNDSTARTED}` // This basically waits until round started so it assigns the role when the round actually started. (Can be removed but not advised)
 
 * `STOPIF {CHANCE100} <= 10` // This has 10% to stop the script if you make it 20 than 20% so the default role has 90% of spawning
   
