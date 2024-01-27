@@ -19,7 +19,3 @@ Custom Roles script that can be used to create new roles
 * `BROADCASTPLAYER {CUSTOMROLE_PLAYER}` 10 You are a custom role bla bla bla. // This is what you broadcast to player, also you can set the duration to other number than 10 (in seconds). [RichText](https://docs.unity3d.com/Packages/com.unity.textmeshpro@4.0/manual/RichText.html) can be used.
   
 * `PLAYERVAR DELETE {CUSTOMROLE_PLAYER}` // Here you just delete the player from the role so other scripts can use it.
-
-# License:
-* 1-clause BSD License
-* [I dont know how licenses work](https://opensource.org/license/bsd-1-clause/)
